@@ -1,15 +1,15 @@
 
-### 启动hadoop服务
-
-```
-$ /opt/hadoop-3.2.2/sbin/start-all.sh
-```
-
 ### 格式化文件系统
 
 若是采用默认配置，第一次启动或者是重启，则需要格式化文件系统。同时也要注意，一旦格式化，仓库里的数据也就不存在了。
 ```
 $ /opt/hadoop-3.2.2/bin/hdfs namenode -format
+```
+
+### 启动hadoop服务
+
+```
+$ /opt/hadoop-3.2.2/sbin/start-all.sh
 ```
 
 ### 访问NameNode节点
